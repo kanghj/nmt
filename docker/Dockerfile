@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:1.5.0-gpu
+FROM tensorflow/tensorflow:1.5.0
 
 RUN apt-get update && \
     apt-get upgrade -y && \
